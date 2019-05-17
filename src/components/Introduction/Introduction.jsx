@@ -64,6 +64,7 @@ const Introduction = () => (
     </ResponsiveTyping>
     <div style={{ display: 'flex', justifyItems: 'space-between' }}>
       <BubbleButton iconClass="fab fa-github" onClick={() => { window.location.href = 'https://github.com/hectorandac'; }} />
+      <BubbleButton iconClass="fab fa-stack-overflow" onClick={() => { window.location.href = 'https://stackoverflow.com/users/10230161/hector-acosta?tab=profile'; }} />
       <BubbleButton iconClass="fab fa-linkedin-in" onClick={() => { window.location.href = 'https://www.linkedin.com/in/hector-acosta-213388106/'; }} />
     </div>
   </Container>
